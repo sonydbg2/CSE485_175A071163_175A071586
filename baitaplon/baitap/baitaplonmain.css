@@ -1,0 +1,11 @@
+main{
+    display: block;
+    width: 100%
+}
+.content{
+    width: 100px;
+    margin-left: 210px;  
+}
+.newangmedia{
+    display: flex;
+}

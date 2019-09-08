@@ -1,0 +1,142 @@
+@media all and (max-width: 1025px) {
+}
+
+
+
+body{
+    margin: 0 auto;
+    background-clip: #fff;
+}
+header{
+   display: block;
+   width: 100%;
+}
+
+/* /// */
+
+.top-header{
+    width: 100%;
+    background-color: #024282;
+    position: relative;
+    display: flex;
+}
+
+
+.hotline{ 
+    width: 300px;
+	height: 20px;
+    color: goldenrod;
+    padding-right: 30px;
+    padding-left: 100px;
+    display: flex;
+    margin-top: 10px
+    
+}
+#phone1{
+    margin: -5px -5px 2px 2px
+}
+#phone2{
+	margin: -5px -5px 2px 2px
+	
+}
+.tile-frames {
+    width:650px;
+    display: flex;
+    font-size: 100%;
+    background-color: #024282;
+    padding-left: 100px;
+    padding-right: 50px;
+   
+}    
+.fonts{
+    height: 20px;
+	position: relative;
+	width: 800px;
+	margin-left: 20px;
+	color: white;
+	margin-top: 10px;
+    display: flex;
+}    
+a.font{
+    width: 200px;
+    height: 36px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 19,5px;
+    touch-action: manipulation;
+    margin: -5px -5px 2px 2px
+}
+
+.font:link{
+    text-decoration: none;
+}
+.font:hover{
+    text-decoration: underline;
+
+}
+.font a:visited{
+    text-decoration: underline;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.search{
+    margin: 0 auto;
+    background-color: #0a024b;
+}
+.input-group{
+    display: flex;
+}
+.title-search{
+    background-color: #0a024b;
+    font-family: sans-serif;
+    font-size: 18px;
+    opacity: 0.5;
+}
+.input-btn{
+    background-color: #0a024b;
+    opacity: 0.5;
+}
+.btn-search{  
+    background-color: #0a024b;
+    opacity: 0.5;
+}
+
+
+/* //// */
+
+.bottom-header{
+    width: 100%;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    margin-left: 150px;
+    padding-top: 25px
+
+}
+.containers{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+   
+}
+.containers .title1{
+    padding: 30.5px;
+    font-weight: bolder;
+    font-size: 19.5px;
+    color: black;
+    
+}
+.bdr-round i{
+    color:#024282;
+    font-size: 25.5px
+}
+.txt{
+    margin-left: 4.5px;
+}
