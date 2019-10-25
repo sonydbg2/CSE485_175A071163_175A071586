@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+  
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.header{
+    width: 100%;
+    display: block;
+}
+.top-header{
+    height: 36px;
+    background-color: #024282;
+    position: relative;   
+}
+.contanier{
+    
+    width: auto !important;
+    max-width: 1200px;
+    position: relative;
+    margin-right: 159.600px;
+    margin-left: 159.600px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.top{
+    display: flex;
+    height: 36px;
+}
+.h-wrapper{
+    position: absolute;
+    left: 10px;
+    display: flex;
+    width: 70%;
+    height: 23px;
+    padding: 8px 30px 5px 5px;
+}
+.htop-1{
+    display: flex;
+    width: 245px;
+    height: 22px;
+    font-size: 13px;
+    color: goldenrod;
+    font-weight: 500;
+}
+.a-top1{
+    color: goldenrod;
+    font-weight: bolder;
+    padding-left: 5px;
+}
+.htop-2{
+    display: flex;
+    padding-left: 100px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.a-top2{
+	color: white;
+    display: flex;
+    margin-left: 50px;
+    font-size: 14.5px;
+}
+.htop-3{
+    display: flex;
+    width: 285px;
+    height: 36px;
+    position: absolute;
+    left: 1000px;
+    margin-top:-10px
+}
+.txtSearch{
+    width: 70%;
+    margin-left: 10px;
+    border: 0px solid thistle;
+    color:rgb(7, 4, 4) alpha;
+    font-size: 18px;
+    background-color: transparent;
+}
+.iconSearch:hover{
+    cursor: pointer;
+}
+.iconSearch{
+    width:30px;
+    text-align: center;
+}
+.i.fa.fa-search{
+   position: absolute;
+   
+}
+#bottom-header{
+    width: auto !important;
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.bottom{
+    height: 90px;
+    display: flex;
+    padding: .5rem .0rem .5rem .0rem;
+}
+.align-items-center{
+    align-items: center;
+}
+
+
+
